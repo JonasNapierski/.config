@@ -1,0 +1,26 @@
+@import "themes/latte.css";
+
+window#waybar {
+	background: @base;
+	color: @mauve;
+}
+
+.modules-left {
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius: 0px 8px 8px 0px;
+}
+.modules-center {
+	padding-left: 12px;
+	padding-right: 12px;
+	border-radius: 8px;
+}
+.modules-right {
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius: 8px 0px 0px 8px;
+}
+
+#workspaces button {
+	color: @mauve;
+}
