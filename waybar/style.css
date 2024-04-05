@@ -5,6 +5,11 @@ window#waybar {
 	color: @mauve;
 }
 
+
+.module {
+  margin: 5px;
+}
+
 .modules-left {
 	padding-left: 6px;
 	padding-right: 6px;
