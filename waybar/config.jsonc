@@ -10,8 +10,13 @@
   "modules-right": [
     "battery",
     "network",
-    "bluetooth"
+    "bluetooth",
+    "custom/lock"
   ],
+  "custom/lock": {
+      "on-click": "swaylock",
+      "format": "\uf023"
+  },
   "clock": {
     "format-alt": "{:%Y-%m-%d}"
   },
