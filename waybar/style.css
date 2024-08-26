@@ -5,7 +5,7 @@
 }
 
 window#waybar {
-	background: @base;
+	background: rgba(0,0,0, 0.32);
 	color: @text;
 }
 
@@ -42,4 +42,9 @@ window#waybar {
 
 #clock {
   font-weight: 600;
+
+}
+
+#battery {
+ padding-right: 8px;
 }
